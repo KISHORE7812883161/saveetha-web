@@ -1,14 +1,11 @@
 {
   "name": "saveetha-web",
   "private": true,
-  "homepage": "https://KISHORE7812883161.github.io/saveetha-web",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
     
